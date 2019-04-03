@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "knex": "^0.16.3",
+    "knex-cleaner": "^1.1.4",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.6"
+  },
+  "name": "cohorts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmendez44/webdb-iii-challenge.git"
+  },
+  "author": "jmendez44 <jenuel.mendez@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "description": "- Databases\r - Relational Databases\r - Knex migrations.\r - Seeding data.",
+  "bugs": {
+    "url": "https://github.com/Jmendez44/webdb-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/Jmendez44/webdb-iii-challenge#readme",
+  "devDependencies": {},
+  "keywords": []
+}
